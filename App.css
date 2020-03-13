@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+*{box-sizing: border-box;
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #666666;
+	background-color: #DBFFE0;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	background-color: #DBFFE0;
+	}
+
+nav a{
+	font-family: 'Didact Gothic', sans-serif;
+	position: relative;
+	color: #803436;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+	font-weight: bolder;
+	}
+
+header{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: url(bg.png); 
+	background-position: top;
+	margin: 0;
+}
+
+
+
+.tituloheader{
+	font-family: 'Great Vibes', cursive;
+	margin: 0%;
+	font-size: 100px;
+	font-size-adjust: auto;
+	text-align: left;
+	padding-left: 10%;
+	padding-top: 5%;
+	color: #FF696B;
+	text-shadow: 1px 1px 3px #803436;
+}
+
+.subtituloheader{
+	color: #805B5B;
+	font-size: 40px;
+	margin: 0%;
+	font-family: 'Great Vibes', cursive;
+	text-align: left;
+	padding-left: 15%;
+
+}
+
+section{
+	width: 100%;
+	color: #FF696B;
+
+}
+
+.tituloquem{
+	margin: 0;
+	padding-top: 6%;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+	color: #803436;
+}
+
+.descriserv{ 
+	text-align: justify;
+	padding-left: 40%;
+	font-size-adjust: auto;
+	
+}
+article{
+	width: 100%;
+	padding: 10%;
+	box-sizing: border-box;
+
+}
+
+#quem article div{
+	float: left;
+	margin: auto;
+	height: auto;
+}
+
+footer {
+  	margin-top: auto;
+	width: 100%;
+	height: 6%;
+	color: #FF696B;
+	text-align: center;
+	position: fixed; 
+	bottom: 0;
+}
